@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
   text-align: center;
   font-size: 30px;
   padding: 30px;
   background-color: #1E2025;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 .wrapper form{
   display: flex;
@@ -52,11 +54,11 @@ body{
   letter-spacing: 5px;
   margin: 50px 0 40px 0;
   opacity: 0.5;
-  /* position:fixed;
+  position:fixed;
   left:0px;
   bottom:0px;
   height:30px;
-  width:100%; */
+  width:100%;
 }
 .cg-logo.loading{
   animation: rotation 2s infinite linear;

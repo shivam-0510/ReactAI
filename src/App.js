@@ -38,10 +38,10 @@ function App() {
           onChange={(e) => setPrompt(e.target.value)}
           placeholder="Ask anything... :)"
         />
-        <button type="submit">Ask</button>
+        <button type="submit">Generate Response</button>
       </form>
       <p className="response-area">
-        {loading ? 'loading...' : response}
+        {loading ? 'Loading...' : response}
       </p>
       <div className="footer">Made with &#10084; by Shivam Gupta</div>
 </div>
